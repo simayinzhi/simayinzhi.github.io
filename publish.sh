@@ -1,13 +1,15 @@
 #!/bin/bash
 set -e
 
+export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:$PATH"
+
 OBSIDIAN_ARTICLES="/Users/philma/Library/Mobile Documents/iCloud~md~obsidian/Documents/my notes/11_Article"
 QUARTZ_DIR="/Users/philma/simayinzhi.github.io"
 QUARTZ_CONTENT="$QUARTZ_DIR/content"
 
 echo "Syncing articles from Obsidian (11_Article) to Quartz content..."
 mkdir -p "$QUARTZ_CONTENT"
-rsync -av --delete --exclude=".DS_Store" "$OBSIDIAN_ARTICLES/" "$QUARTZ_CONTENT/"
+rsync -av --delete --exclude=".DS_Store" --exclude="index.md" "$OBSIDIAN_ARTICLES/" "$QUARTZ_CONTENT/"
 
 cd "$QUARTZ_DIR"
 
