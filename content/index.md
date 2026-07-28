@@ -1,33 +1,33 @@
 ---
-title: "Phil Ma — SRE & System Architecture"
-description: "Notes, thoughts, and technical articles on high-concurrency systems, SRE, JVM performance tuning, and software architecture."
+title: "Phil Ma"
 ---
 
-# Welcome to My Tech Blog & Digital Garden 👋
-
-I am **Phil Ma**, a Senior Java Architect and Director of Site Reliability Engineering with 14+ years of enterprise experience building high-concurrency platforms.
-
-Here I publish technical deep-dives, architecture notes, SRE incident post-mortems, and thoughts on software engineering.
+I am a **Senior Java Architect** and **Director of Site Reliability Engineering** with 14+ years of enterprise experience building high-concurrency platforms. Open to relocation to **Canada** or **Singapore**.
 
 ---
 
-## 📚 Articles & Notes
+### # now <span class="path">~/now</span>
 
-Here are the latest articles published from my workspace:
-
-- [[少年的远行]] — *Personal essay & reflective writing*
-- [[保险故障]] — *Technical analysis & case study*
-- [[公众号校对排版prompt]] — *AI prompting & content tooling*
+- **building** high-throughput Risk Decision Engines & SRE observability pipelines
+- **focusing** JVM heap dump flame graphs, low-latency GC tuning & Chaos Engineering
 
 ---
 
-## 🛠️ Focus Areas
+### # notes <span class="path">~/notes</span>
 
-- **JVM Tuning & Low Latency:** Flame graphs, GC optimization, massive 20GB+ heap dump analysis.
-- **Site Reliability Engineering:** 99.99% availability frameworks, Chaos Engineering, SLOs/SLAs.
-- **Distributed Architecture:** Microservices, Neo4j graph databases, high-throughput message queues, hybrid cloud (K8s/AWS/Alibaba/Tencent).
+- [[少年的远行]] <span class="tags">[essay]</span>
+- [[保险故障]] <span class="tags">[sre, post-mortem]</span>
 
 ---
 
-> [!TIP]
-> Use **`Cmd + K`** (or the search bar on the left) to quickly search across all articles and tags.
+### # experience <span class="path">~/experience</span>
+
+- **YMM (Full Truck Alliance, Nasdaq: YMM)** &mdash; Technical Lead & Director of SRE *(2015 – 2024)*
+- **Ruilan E-commerce** &mdash; R&D Director *(2014 – 2015)*
+- **Wangte Technology** &mdash; Co-founder *(2012 – 2014)*
+
+---
+
+### # links <span class="path">~/links</span>
+
+[github](https://github.com/simayinzhi) &bull; [linkedin](https://www.linkedin.com/in/phil-ma-%E9%A9%AC%E7%A3%8A-33bb58119/) &bull; [email](mailto:phil.ma.work@gmail.com)

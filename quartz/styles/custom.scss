@@ -1,3 +1,71 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+// Ellie.wtf Minimalist Terminal Developer Theme Styling
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.terminal-cursor {
+  display: inline-block;
+  margin-left: 2px;
+  color: var(--secondary);
+  animation: blink 1s step-start infinite;
+}
+
+.path, .section-path {
+  font-family: var(--codeFont), monospace;
+  font-size: 0.82rem;
+  color: var(--gray);
+  margin-left: 0.5rem;
+  font-weight: normal;
+}
+
+.tags {
+  font-family: var(--codeFont), monospace;
+  font-size: 0.8rem;
+  color: var(--gray);
+  margin-left: 0.4rem;
+}
+
+/* Header site title */
+.page-title a {
+  font-family: var(--codeFont), monospace;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.page-title a::after {
+  content: " █";
+  color: var(--secondary);
+  animation: blink 1s step-start infinite;
+}
+
+/* Post and note list styling */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 0.6rem;
+  line-height: 1.6;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Minimalist border lines */
+hr {
+  border: none;
+  border-top: 1px solid var(--lightgray);
+  margin: 1.5rem 0;
+}
