@@ -22,4 +22,7 @@ git add .
 git commit -m "Publish updates from Obsidian $(date '+%Y-%m-%d %H:%M')" || echo "No changes to commit"
 git push -u origin main --force
 
+echo "Deploying HTML pages to gh-pages branch..."
+npx gh-pages -d public -b gh-pages
+
 echo "Publish complete! Deployment to https://simayinzhi.github.io is in progress."
