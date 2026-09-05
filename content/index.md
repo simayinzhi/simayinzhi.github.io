@@ -15,6 +15,7 @@ I am a **Senior Java Architect** and **Director of Site Reliability Engineering*
 
 ### # notes <span class="path">~/notes</span>
 
+- [[SRE Master Chapter 1]] <span class="tags">[fiction, sre]</span>
 - [[少年的远行]] <span class="tags">[essay]</span>
 - [[保险故障]] <span class="tags">[sre, post-mortem]</span>
 
