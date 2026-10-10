@@ -275,9 +275,9 @@ Frank had negotiated Victor’s executive package directly with executive recrui
 
 Victor’s total compensation package was not merely three times what Sky made.
 
-It was **twice the salary of CTO Don himself**.
+It was **even higher than the compensation of CTO Don himself**.
 
-In an enterprise organization, an architect might survive quadrupling cloud hardware budgets to mask an unoptimized search cluster. But earning double the compensation of the Chief Technology Officer while doing it was a line no corporate politics could survive.
+In an enterprise organization, an architect might survive quadrupling cloud hardware budgets to mask an unoptimized search cluster. But earning more than the Chief Technology Officer while doing it was a line no corporate politics could survive.
 
 Victor had won the recruitment table, won the keynote stage, and won the elasticity dividends. 
 
