@@ -16,6 +16,7 @@ I am a **Senior Java Architect** and **Technical Lead** with 14+ years of enterp
 
 ### # notes <span class="path">~/notes</span>
 
+- [[Root Cause - 07 - The Elasticity Dividend]] <span class="tags">[fiction, sre]</span>
 - [[Root Cause - 06 - The Silent Counter]] <span class="tags">[fiction, sre]</span>
 - [[Root Cause - 05 - The Clean Diff]] <span class="tags">[fiction, sre]</span>
 - [[Root Cause - 04 - The Release System]] <span class="tags">[fiction, sre]</span>
