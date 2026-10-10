@@ -120,7 +120,7 @@ Around the central table, Don and the business leaders were nodding with visible
 
 Frank nodded along, an approving smile on his face.
 
-Phil sat frozen in his chair, staring at the glowing topology diagram on the 85-inch screen. Four times the compute instances. Four times the provisioned cloud IOPS. An architecture bill that had multiplied fourfold overnight, hailed as a breakthrough in engineering excellence.
+Phil sat frozen in his chair, the electric blue glow of the topology diagram reflecting in his eyes. Four times the compute instances. Four times the provisioned cloud IOPS. An architecture bill that had multiplied fourfold overnight, hailed as a breakthrough in engineering excellence.
 
 * * *
 
@@ -233,15 +233,15 @@ Phil clinked his glass gently against Sky’s. Neither of them spoke for a long 
 
 * * *
 
-The following Monday morning, the glass doors of CTO Don’s corner office were shut tight.
+The following Monday morning, the frosted glass door of the fourteenth-floor breakout room was pulled shut.
 
-Don sat behind his wide executive desk, a ceramic mug of green tea resting beside a stack of quarterly compute infrastructure reports. Opposite him sat Frank, his laptop resting closed across his knees.
+Don sat at the head of the small glass conference table, a ceramic mug of green tea resting beside a stack of quarterly compute infrastructure reports. Opposite him sat Frank, his laptop resting closed across his knees.
 
-Don took a slow sip of tea, set the cup down on the wooden coaster, and looked across the desk.
+Don took a slow sip of tea, set the cup down on the wooden coaster, and looked across the table.
 
 “Sky turned in his badge,” Don said. His cadence was deceptively relaxed, but his gaze remained fixed on Frank. “Our Head of Middleware. The engineer who built the release platform’s routing core. Why did he leave?”
 
-Frank shifted slightly in his chair, his fingers tightening against the edge of his laptop chassis. He looked down at the dark grain of the desk.
+Frank shifted slightly in his chair, his fingers tightening against the edge of his laptop chassis. He looked down at the dark grain of the table.
 
 “He saw Victor’s compensation package,” Frank said quietly.
 
@@ -253,7 +253,7 @@ Frank paused for two seconds. He swallowed before speaking the number:
 
 The room went dead, absolute silence.
 
-Don didn't move. He didn't frown, and he didn't raise his voice. He sat completely motionless in his high-back leather executive chair, staring at the space between Frank’s shoulders. The steam rose from his ceramic cup, vanishing into the dry conditioned air of the room. 
+Don didn't move. He didn't frown, and he didn't raise his voice. He sat completely motionless in his mesh chair, staring at the space between Frank’s shoulders. The steam rose from his ceramic cup, vanishing into the dry conditioned air of the room. 
 
 Thirty seconds passed without a single sound. 
 
