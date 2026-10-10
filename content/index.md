@@ -1,5 +1,5 @@
 ---
-title: "Phil Ma"
+title: "Leo Ma"
 ---
 
 I am a **Senior Java Architect** and **Director of Site Reliability Engineering** with 14+ years of enterprise experience building high-concurrency platforms. Open to relocation to **Canada** or **Singapore**.
@@ -15,7 +15,12 @@ I am a **Senior Java Architect** and **Director of Site Reliability Engineering*
 
 ### # notes <span class="path">~/notes</span>
 
-- [[SRE Master Chapter 1]] <span class="tags">[fiction, sre]</span>
+- [[Root Cause - 06 - The Silent Counter]] <span class="tags">[fiction, sre]</span>
+- [[Root Cause - 05 - The Clean Diff]] <span class="tags">[fiction, sre]</span>
+- [[Root Cause - 04 - The Release System]] <span class="tags">[fiction, sre]</span>
+- [[Root Cause - 03 - The Stability Charter]] <span class="tags">[fiction, sre]</span>
+- [[Root Cause - 02 - The Twin Anomaly]] <span class="tags">[fiction, sre]</span>
+- [[Root Cause - 01 - The Lakeside Call]] <span class="tags">[fiction, sre]</span>
 - [[少年的远行]] <span class="tags">[essay]</span>
 - [[保险故障]] <span class="tags">[sre, post-mortem]</span>
 

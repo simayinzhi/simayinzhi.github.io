@@ -230,3 +230,203 @@ Transfer starting: 0 files
 sent 48 bytes  received 20 bytes  680000 bytes/sec
 total size is 0  speedup is 0.00
 rsync(97973): warning: child 97974 exited with status 23
+Syncing articles from Obsidian (11_Article) to Quartz content...
+rsync(76578): error: open /Users/philma/Library/Mobile Documents/iCloud~md~obsidian/Documents/my notes/11_Article/: Operation not permitted
+rsync(76578): error: froot_open
+Transfer starting: 0 files
+
+sent 48 bytes  received 20 bytes  680000 bytes/sec
+total size is 0  speedup is 0.00
+rsync(76578): warning: child 76579 exited with status 23
+Syncing articles from Obsidian (11_Article) to Quartz content...
+rsync(516): error: open /Users/philma/Library/Mobile Documents/iCloud~md~obsidian/Documents/my notes/11_Article/: Operation not permitted
+rsync(516): error: froot_open
+Transfer starting: 0 files
+
+sent 48 bytes  received 20 bytes  680000 bytes/sec
+total size is 0  speedup is 0.00
+rsync(516): warning: child 517 exited with status 23
+Syncing articles from Obsidian (11_Article) to Quartz content...
+rsync(25180): error: open /Users/philma/Library/Mobile Documents/iCloud~md~obsidian/Documents/my notes/11_Article/: Operation not permitted
+rsync(25180): error: froot_open
+Transfer starting: 0 files
+
+sent 48 bytes  received 20 bytes  680000 bytes/sec
+total size is 0  speedup is 0.00
+rsync(25180): warning: child 25182 exited with status 23
+Syncing articles from Obsidian (11_Article) to Quartz content...
+rsync(57796): error: open /Users/philma/Library/Mobile Documents/iCloud~md~obsidian/Documents/my notes/11_Article/: Operation not permitted
+rsync(57796): error: froot_open
+Transfer starting: 0 files
+
+sent 48 bytes  received 20 bytes  680000 bytes/sec
+total size is 0  speedup is 0.00
+rsync(57796): warning: child 57797 exited with status 23
+Syncing articles from Obsidian (11_Article) to Quartz content...
+rsync(77043): error: open /Users/philma/Library/Mobile Documents/iCloud~md~obsidian/Documents/my notes/11_Article/: Operation not permitted
+rsync(77043): error: froot_open
+Transfer starting: 0 files
+
+sent 48 bytes  received 20 bytes  680000 bytes/sec
+total size is 0  speedup is 0.00
+rsync(77043): warning: child 77044 exited with status 23
+Syncing articles from Obsidian (11_Article) to Quartz content...
+rsync(7082): error: open /Users/philma/Library/Mobile Documents/iCloud~md~obsidian/Documents/my notes/11_Article/: Operation not permitted
+rsync(7082): error: froot_open
+Transfer starting: 0 files
+
+sent 48 bytes  received 20 bytes  680000 bytes/sec
+total size is 0  speedup is 0.00
+rsync(7082): warning: child 7083 exited with status 23
+Syncing articles from Obsidian (11_Article) to Quartz content...
+rsync(33015): error: open /Users/philma/Library/Mobile Documents/iCloud~md~obsidian/Documents/my notes/11_Article/: Operation not permitted
+rsync(33015): error: froot_open
+Transfer starting: 0 files
+
+sent 48 bytes  received 20 bytes  61818 bytes/sec
+total size is 0  speedup is 0.00
+rsync(33015): warning: child 33016 exited with status 23
+Syncing articles from Obsidian (11_Article) to Quartz content...
+rsync(38395): error: open /Users/philma/Library/Mobile Documents/iCloud~md~obsidian/Documents/my notes/11_Article/: Operation not permitted
+rsync(38395): error: froot_open
+Transfer starting: 0 files
+
+sent 48 bytes  received 20 bytes  680000 bytes/sec
+total size is 0  speedup is 0.00
+rsync(38395): warning: child 38396 exited with status 23
+Syncing articles from Obsidian (11_Article) to Quartz content...
+rsync(63185): error: open /Users/philma/Library/Mobile Documents/iCloud~md~obsidian/Documents/my notes/11_Article/: Operation not permitted
+rsync(63185): error: froot_open
+Transfer starting: 0 files
+
+sent 48 bytes  received 20 bytes  680000 bytes/sec
+total size is 0  speedup is 0.00
+rsync(63185): warning: child 63186 exited with status 23
+Syncing articles from Obsidian (11_Article) to Quartz content...
+rsync(3305): error: open /Users/philma/Library/Mobile Documents/iCloud~md~obsidian/Documents/my notes/11_Article/: Operation not permitted
+rsync(3305): error: froot_open
+Transfer starting: 0 files
+
+sent 48 bytes  received 20 bytes  680000 bytes/sec
+total size is 0  speedup is 0.00
+rsync(3305): warning: child 3306 exited with status 23
+Syncing articles from Obsidian (11_Article) to Quartz content...
+rsync(32015): error: open /Users/philma/Library/Mobile Documents/iCloud~md~obsidian/Documents/my notes/11_Article/: Operation not permitted
+rsync(32015): error: froot_open
+Transfer starting: 0 files
+
+sent 48 bytes  received 20 bytes  680000 bytes/sec
+total size is 0  speedup is 0.00
+rsync(32015): warning: child 32016 exited with status 23
+Syncing articles from Obsidian (11_Article) to Quartz content...
+rsync(59184): error: open /Users/philma/Library/Mobile Documents/iCloud~md~obsidian/Documents/my notes/11_Article/: Operation not permitted
+rsync(59184): error: froot_open
+Transfer starting: 0 files
+
+sent 48 bytes  received 20 bytes  680000 bytes/sec
+total size is 0  speedup is 0.00
+rsync(59184): warning: child 59185 exited with status 23
+Syncing articles from Obsidian (11_Article) to Quartz content...
+rsync(96528): error: open /Users/philma/Library/Mobile Documents/iCloud~md~obsidian/Documents/my notes/11_Article/: Operation not permitted
+rsync(96528): error: froot_open
+Transfer starting: 0 files
+
+sent 48 bytes  received 20 bytes  680000 bytes/sec
+total size is 0  speedup is 0.00
+rsync(96528): warning: child 96529 exited with status 23
+Syncing articles from Obsidian (11_Article) to Quartz content...
+rsync(54296): error: open /Users/philma/Library/Mobile Documents/iCloud~md~obsidian/Documents/my notes/11_Article/: Operation not permitted
+rsync(54296): error: froot_open
+Transfer starting: 0 files
+
+sent 48 bytes  received 20 bytes  680000 bytes/sec
+total size is 0  speedup is 0.00
+rsync(54296): warning: child 54297 exited with status 23
+Syncing articles from Obsidian (11_Article) to Quartz content...
+rsync(6512): error: open /Users/philma/Library/Mobile Documents/iCloud~md~obsidian/Documents/my notes/11_Article/: Operation not permitted
+rsync(6512): error: froot_open
+Transfer starting: 0 files
+
+sent 48 bytes  received 20 bytes  680000 bytes/sec
+total size is 0  speedup is 0.00
+rsync(6512): warning: child 6513 exited with status 23
+Syncing articles from Obsidian (11_Article) to Quartz content...
+rsync(57576): error: open /Users/philma/Library/Mobile Documents/iCloud~md~obsidian/Documents/my notes/11_Article/: Operation not permitted
+rsync(57576): error: froot_open
+Transfer starting: 0 files
+
+sent 48 bytes  received 20 bytes  680000 bytes/sec
+total size is 0  speedup is 0.00
+rsync(57576): warning: child 57577 exited with status 23
+Syncing articles from Obsidian (11_Article) to Quartz content...
+rsync(79757): error: open /Users/philma/Library/Mobile Documents/iCloud~md~obsidian/Documents/my notes/11_Article/: Operation not permitted
+rsync(79757): error: froot_open
+Transfer starting: 0 files
+
+sent 48 bytes  received 20 bytes  680000 bytes/sec
+total size is 0  speedup is 0.00
+rsync(79757): warning: child 79758 exited with status 23
+Syncing articles from Obsidian (11_Article) to Quartz content...
+rsync(74025): error: open /Users/philma/Library/Mobile Documents/iCloud~md~obsidian/Documents/my notes/11_Article/: Operation not permitted
+rsync(74025): error: froot_open
+Transfer starting: 0 files
+
+sent 48 bytes  received 20 bytes  680000 bytes/sec
+total size is 0  speedup is 0.00
+rsync(74025): warning: child 74026 exited with status 23
+Syncing articles from Obsidian (11_Article) to Quartz content...
+rsync(19413): error: open /Users/philma/Library/Mobile Documents/iCloud~md~obsidian/Documents/my notes/11_Article/: Operation not permitted
+rsync(19413): error: froot_open
+Transfer starting: 0 files
+
+sent 48 bytes  received 20 bytes  680000 bytes/sec
+total size is 0  speedup is 0.00
+rsync(19413): warning: child 19414 exited with status 23
+Syncing articles from Obsidian (11_Article) to Quartz content...
+rsync(86227): error: open /Users/philma/Library/Mobile Documents/iCloud~md~obsidian/Documents/my notes/11_Article/: Operation not permitted
+rsync(86227): error: froot_open
+Transfer starting: 0 files
+
+sent 48 bytes  received 20 bytes  680000 bytes/sec
+total size is 0  speedup is 0.00
+rsync(86227): warning: child 86228 exited with status 23
+Syncing articles from Obsidian (11_Article) to Quartz content...
+rsync(50031): error: open /Users/philma/Library/Mobile Documents/iCloud~md~obsidian/Documents/my notes/11_Article/: Operation not permitted
+rsync(50031): error: froot_open
+Transfer starting: 0 files
+
+sent 48 bytes  received 20 bytes  680000 bytes/sec
+total size is 0  speedup is 0.00
+rsync(50031): warning: child 50032 exited with status 23
+Syncing articles from Obsidian (11_Article) to Quartz content...
+rsync(64281): error: open /Users/philma/Library/Mobile Documents/iCloud~md~obsidian/Documents/my notes/11_Article/: Operation not permitted
+rsync(64281): error: froot_open
+Transfer starting: 0 files
+
+sent 48 bytes  received 20 bytes  680000 bytes/sec
+total size is 0  speedup is 0.00
+rsync(64281): warning: child 64282 exited with status 23
+Syncing articles from Obsidian (11_Article) to Quartz content...
+rsync(69539): error: open /Users/philma/Library/Mobile Documents/iCloud~md~obsidian/Documents/my notes/11_Article/: Operation not permitted
+rsync(69539): error: froot_open
+Transfer starting: 0 files
+
+sent 48 bytes  received 20 bytes  680000 bytes/sec
+total size is 0  speedup is 0.00
+rsync(69539): warning: child 69540 exited with status 23
+Syncing articles from Obsidian (11_Article) to Quartz content...
+rsync(14136): error: open /Users/philma/Library/Mobile Documents/iCloud~md~obsidian/Documents/my notes/11_Article/: Operation not permitted
+rsync(14136): error: froot_open
+Transfer starting: 0 files
+
+sent 48 bytes  received 20 bytes  680000 bytes/sec
+total size is 0  speedup is 0.00
+rsync(14136): warning: child 14137 exited with status 23
+Syncing articles from Obsidian (11_Article) to Quartz content...
+rsync(70496): error: open /Users/philma/Library/Mobile Documents/iCloud~md~obsidian/Documents/my notes/11_Article/: Operation not permitted
+rsync(70496): error: froot_open
+Transfer starting: 0 files
+
+sent 48 bytes  received 20 bytes  680000 bytes/sec
+total size is 0  speedup is 0.00
+rsync(70496): warning: child 70497 exited with status 23

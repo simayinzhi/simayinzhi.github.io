@@ -2,6 +2,7 @@
 set -e
 
 export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:$PATH"
+export GIT_SSH_COMMAND="ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null"
 
 OBSIDIAN_ARTICLES="/Users/philma/Library/Mobile Documents/iCloud~md~obsidian/Documents/my notes/11_Article"
 QUARTZ_DIR="/Users/philma/simayinzhi.github.io"
