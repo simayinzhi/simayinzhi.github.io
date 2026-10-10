@@ -10,13 +10,25 @@
     <link>https://simayinzhi.github.io/tags/</link>
     <guid>https://simayinzhi.github.io/tags/</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Sat, 10 Oct 2026 02:09:02 GMT</pubDate>
+    <pubDate>Sat, 10 Oct 2026 03:39:37 GMT</pubDate>
+  </item><item>
+    <title>Root Cause - 07 - The Elasticity Dividend</title>
+    <link>https://simayinzhi.github.io/root-cause---07---the-elasticity-dividend</link>
+    <guid>https://simayinzhi.github.io/root-cause---07---the-elasticity-dividend</guid>
+    <description><![CDATA[ The third-floor corner conference room smelled of burnt roast beans from the automated espresso machine down the hall. ]]></description>
+    <pubDate>Sat, 10 Oct 2026 03:39:09 GMT</pubDate>
+  </item><item>
+    <title>AI如何迎合你做出错误决策 视频文本</title>
+    <link>https://simayinzhi.github.io/ai%E5%A6%82%E4%BD%95%E8%BF%8E%E5%90%88%E4%BD%A0%E5%81%9A%E5%87%BA%E9%94%99%E8%AF%AF%E5%86%B3%E7%AD%96-%E8%A7%86%E9%A2%91%E6%96%87%E6%9C%AC</link>
+    <guid>https://simayinzhi.github.io/ai%E5%A6%82%E4%BD%95%E8%BF%8E%E5%90%88%E4%BD%A0%E5%81%9A%E5%87%BA%E9%94%99%E8%AF%AF%E5%86%B3%E7%AD%96-%E8%A7%86%E9%A2%91%E6%96%87%E6%9C%AC</guid>
+    <description><![CDATA[ “我前阵子刚交了 3000 块学费，买到一个极为深刻的教训： AI 最可怕的地方，不是它不够聪明，而是它会用极度专业的语气，及其严谨的逻辑，帮你把事情搞砸。” （第 6 到 18 秒：带入真实翻车经历） “前段时间我 DIY 办签证，全程让 AI 帮我审核。它的每条建议都逻辑严密、滴水不漏，甚至一度让我觉得‘这次稳了’——结果没有等两个月，在第二天，我就收到了拒签信。” （第 19 到 30 秒：抛出核心悬念与学术背书） “由于AI给的方案非常靠谱，让我一度有些神情恍惚，难以接受这个结果。我后来复盘才发现，不是它水平不行，而是我被它‘投其所好’给套路了。斯坦福大学的的研究团队专门指出过这个现象... ]]></description>
+    <pubDate>Sat, 10 Oct 2026 02:09:03 GMT</pubDate>
   </item><item>
     <title>Leo Ma</title>
     <link>https://simayinzhi.github.io/</link>
     <guid>https://simayinzhi.github.io/</guid>
     <description><![CDATA[ I am a Senior Java Architect and Technical Lead with 14+ years of enterprise experience building high-concurrency platforms. ]]></description>
-    <pubDate>Sat, 10 Oct 2026 02:04:30 GMT</pubDate>
+    <pubDate>Sat, 10 Oct 2026 02:09:03 GMT</pubDate>
   </item><item>
     <title>Postmortem: INC-20261118 Core Merchant System Outage (P1)</title>
     <link>https://simayinzhi.github.io/postmortem---merchant-system-p1-outage</link>
@@ -53,18 +65,6 @@
     <guid>https://simayinzhi.github.io/root-cause---05---the-clean-diff</guid>
     <description><![CDATA[ A thin autumn fog clung to the high-rise glass outside the twelfth floor. ]]></description>
     <pubDate>Sat, 10 Oct 2026 01:58:43 GMT</pubDate>
-  </item><item>
-    <title>Root Cause - 06 - The Silent Counter</title>
-    <link>https://simayinzhi.github.io/root-cause---06---the-silent-counter</link>
-    <guid>https://simayinzhi.github.io/root-cause---06---the-silent-counter</guid>
-    <description><![CDATA[ 02:15 AM. The #proj-checkout-upgrade Slack channel chimed against the silence of the night. ]]></description>
-    <pubDate>Sat, 10 Oct 2026 01:58:43 GMT</pubDate>
-  </item><item>
-    <title>AI如何迎合你做出错误决策 视频文本</title>
-    <link>https://simayinzhi.github.io/ai%E5%A6%82%E4%BD%95%E8%BF%8E%E5%90%88%E4%BD%A0%E5%81%9A%E5%87%BA%E9%94%99%E8%AF%AF%E5%86%B3%E7%AD%96-%E8%A7%86%E9%A2%91%E6%96%87%E6%9C%AC</link>
-    <guid>https://simayinzhi.github.io/ai%E5%A6%82%E4%BD%95%E8%BF%8E%E5%90%88%E4%BD%A0%E5%81%9A%E5%87%BA%E9%94%99%E8%AF%AF%E5%86%B3%E7%AD%96-%E8%A7%86%E9%A2%91%E6%96%87%E6%9C%AC</guid>
-    <description><![CDATA[ “我前阵子刚交了 3000 块学费，买到一个极为深刻的教训： AI 最可怕的地方，不是它不够聪明，而是它会用极度专业的语气，及其严谨的逻辑，帮你把事情搞砸。” （第 6 到 18 秒：带入真实翻车经历） “前段时间我 DIY 办签证，全程让 AI 帮我审核。它的每条建议都逻辑严密、滴水不漏，甚至一度让我觉得‘这次稳了’——结果没有等两个月，在第二天，我就收到了拒签信。” （第 19 到 30 秒：抛出核心悬念与学术背书） “由于AI给的方案非常靠谱，让我一度有些神情恍惚，难以接受这个结果。我后来复盘才发现，不是它水平不行，而是我被它‘投其所好’给套路了。斯坦福大学的的研究团队专门指出过这个现象... ]]></description>
-    <pubDate>Tue, 22 Sep 2026 09:25:01 GMT</pubDate>
   </item>
     </channel>
   </rss>
