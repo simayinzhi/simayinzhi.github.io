@@ -8,8 +8,9 @@ I am a **Senior Java Architect** and **Technical Lead** with 14+ years of enterp
 
 ### # now <span class="path">~/now</span>
 
-- **building** high-throughput Risk Decision Engines & SRE observability pipelines
-- **focusing** JVM heap dump flame graphs, low-latency GC tuning & Chaos Engineering
+- **building** AI SaaS applications & multi-modal agentic workflows (LangGraph, FastAPI)
+- **writing** *Root Cause*, a technical detective fiction series on enterprise SRE
+- **exploring** senior engineering & architecture opportunities in **Singapore** and **Canada**
 
 ---
 
