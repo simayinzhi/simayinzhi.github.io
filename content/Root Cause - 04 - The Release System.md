@@ -14,7 +14,7 @@ Harry turned to the room, laying down the operational fronts:
 
 Sky leaned back in his chair with arms folded. “Consider it done.”
 
-“Second, message broker governance,” Harry continued, looking at Phil. “RabbitMQ is sitting on an Erlang memory minefield. Phil, you lead the cross-team audit across all product lines. Catalog every producer, every consumer, and establish the migration path toward a Java-native RocketMQ architecture.”
+“Second, message broker governance,” Harry continued, looking at Phil. “RabbitMQ is sitting on an Erlang memory minefield. Phil, you lead the cross-team audit across all product lines. Catalog every producer, every consumer, and establish the migration path toward a unified Kafka architecture.”
 
 Phil nodded quietly. “We’ll map the dependencies team by team.”
 
@@ -110,7 +110,7 @@ He walked over to the whiteboard, picked up an uncapped red marker, and stood be
 
 Phil touched the red marker to the glass, sketching two simple red boxes beneath Sky's diagram.
 
-“First: what happens when a synchronous call branches into an asynchronous message queue in **RocketMQ**?”
+“First: what happens when a synchronous call branches into an asynchronous message queue in **Kafka**?”
 
 Phil drew a second box on the right.
 
@@ -122,11 +122,11 @@ Then Sky’s eyes widened slightly. He stared at the board, the marker hovering 
 
 “Damn,” Sky breathed, stepping forward. He tapped his marker against the glass. “The synchronous chain ends, but the business transaction doesn’t.”
 
-Sky pointed his marker directly at the RocketMQ box, his voice quickening:
+Sky pointed his marker directly at the Kafka box, his voice quickening:
 
-“Look at our consumer pulling model. A customer orders lunch, and a canary `Payment Service` pod participating in deployment `10842` processes the payment. To free up worker threads, Payment publishes an asynchronous `OrderPaidEvent` into RocketMQ using an updated payload schema. 
+“Look at our consumer pulling model. A customer orders lunch, and a canary `Payment Service` pod participating in deployment `10842` processes the payment. To free up worker threads, Payment publishes an asynchronous `OrderPaidEvent` into Kafka using an updated payload schema. 
 
-Downstream, sixty Dispatch pods are listening to the shared topic. Fifty-four are running baseline code; six are canary pods deployed under `10842`. RocketMQ pulls round-robin. A baseline pod pulls that canary message. It can’t deserialize the new schema. `NullPointerException`. The message drops straight into the Dead Letter Queue.”
+Downstream, sixty Dispatch pods are listening to the shared topic. Fifty-four are running baseline code; six are canary pods deployed under `10842`. Kafka consumers poll partitions. A baseline pod pulls that canary message. It can’t deserialize the new schema. `NullPointerException`. The message drops straight into the Dead Letter Queue.”
 
 Sky looked at Andrew, holding his gaze.
 
@@ -150,7 +150,7 @@ He picked up his blue marker and uncapped it.
 
 “We hook into both ends of our middleware SDK,” Sky said, drawing directly onto the glass.
 
-“On the producer side, when `Payment Service` publishes `OrderPaidEvent`, the producer interceptor extracts the active Deployment ID from the thread context and writes it into the message header as `__x_deployment_id: 10842`. The RocketMQ broker doesn’t do any heavy filtering—it stores the bytes at maximum throughput with zero CPU penalty.
+“On the producer side, when `Payment Service` publishes `OrderPaidEvent`, the producer interceptor extracts the active Deployment ID from the thread context and writes it into the message header as `__x_deployment_id: 10842`. The Kafka broker doesn’t do any heavy filtering—it stores the bytes at maximum throughput with zero CPU penalty.
 
 On the consumer side, we place a **Consumer Client-SDK Interceptor** in front of the listener. When a baseline Dispatch pod pulls a message tagged with `__x_deployment_id: 10842`, the interceptor inspects the header before Spring touches it, recognizes the deployment mismatch, and bypasses processing. When the canary Dispatch pod for `10842` pulls that message, the interceptor matches the ID, binds `10842` into the consumer thread’s context, and invokes the new business logic. Downstream RPC calls triggered by that consumer automatically continue on the `10842` channel. Zero broker CPU overhead, zero cross-contamination.”
 
@@ -158,7 +158,7 @@ Sky turned to the scheduler box, drawing an isolated partition gate:
 
 “And for the distributed scheduler, we inject a cluster environment selector. During canary stages, canary pods automatically register under their specific deployment tenant ID, explicitly disabling automated master cron triggers. They only accept manually injected test batch triggers targeted at that deployment ID, completely walling off production financial jobs until the rollout is promoted to 100%.”
 
-Sky drew a boundary enclosing the Gateway, the RPC mesh, the RocketMQ broker, and the job scheduler into a single diagram.
+Sky drew a boundary enclosing the Gateway, the RPC mesh, the Kafka broker, and the job scheduler into a single diagram.
 
 He turned back to Phil, capping his marker. 
 
@@ -203,5 +203,5 @@ In modern high-velocity microservices, multiple teams deploy features concurrent
 
 #### 4. Why Message Queues and Schedulers Are the Achilles' Heel of Canary Deployments
 Traditional canary release platforms focus exclusively on HTTP/RPC gateways, leaving asynchronous entry points completely exposed:
-* **The Asynchronous Event Trap & Consumer SDK Interception**: When a canary service produces an event into a shared message broker (like Apache RocketMQ), baseline consumers will pull and fail to parse the updated schema. Instead of burdening the message broker with heavy SQL92 expression parsing, high-throughput systems use **Consumer Client-SDK Interception**: the producer SDK injects `__x_deployment_id` into message headers, and the consumer SDK intercepts incoming messages at the client JVM level, routing matching messages to canary business listeners and restoring the deployment context for all downstream asynchronous operations.
+* **The Asynchronous Event Trap & Consumer SDK Interception**: When a canary service produces an event into a shared message broker (like Apache Kafka), baseline consumers will pull and fail to parse the updated schema. Instead of burdening the message broker with heavy partition filtering or topic proliferation, high-throughput systems use **Consumer Client-SDK Interception**: the producer SDK injects `__x_deployment_id` into record headers, and the consumer SDK intercepts incoming messages at the client JVM level, routing matching messages to canary business listeners and restoring the deployment context for all downstream asynchronous operations.
 * **The Scheduled Job Collision**: Distributed job schedulers (such as XXL-JOB or Elastic-Job) see newly deployed canary pods as active workers. Unless canary pods are tagged with their specific deployment tenant ID and disabled from automatic master cron execution, untested batch logic will execute against production databases, causing irreversible data corruption.

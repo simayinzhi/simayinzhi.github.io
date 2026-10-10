@@ -64,9 +64,9 @@ While reviewing incident logs over in the infrastructure area, Tiger tossed a st
 
 Sky leaned against the cubicle partition, arms crossed.
 
-“Tiger's right,” Sky said, looking at Phil. “We should replace RabbitMQ entirely with **RocketMQ**. It’s built natively in Java, exactly like our core application stack. If we hit an obscure bug or an undocumented edge case with no answers online, we don’t have to pray—we can just open the source code, debug the broker internals ourselves in Java, and patch it. That has to be our next architectural stage.”
+“Tiger's right,” Sky said, looking at Phil. “We should replace RabbitMQ entirely with **Kafka**. It’s built natively on the JVM, matching our core application stack. If we hit an obscure bug or an undocumented edge case with no answers online, we don’t have to pray—we can just open the source code, debug the broker internals ourselves on the JVM, and patch it. That has to be our next architectural stage.”
 
-“I agree,” Phil said, looking over the telemetry charts. “Since RabbitMQ is going to be eliminated completely, we shouldn't waste any engineering effort trying to patch or tune its internals. We just don't touch it. Our real objective for the next stage is replacing it directly with RocketMQ, but coordinating that migration across dozens of product lines will take organization-wide alignment.”
+“I agree,” Phil said, looking over the telemetry charts. “Since RabbitMQ is going to be eliminated completely, we shouldn't waste any engineering effort trying to patch or tune its internals. We just don't touch it. Our real objective for the next stage is replacing it directly with Kafka, but coordinating that migration across dozens of product lines will take organization-wide alignment.”
 
 Cross-referencing the historical outage timeline against the newly established Critical API metrics confirmed the broader picture.
 
@@ -74,7 +74,7 @@ Phil met Harry in a glass meeting room with a single sheet of diagnostic charts.
 
 “Here is our reality, Harry,” Phil placed the paper on the glass table. “First, over eighty percent of our outages happen during or right after new feature releases. Because we lack staged release safeguards and immediate rollback mechanisms, minor deployment bugs regularly escalate into full platform disasters. 
 
-Second, RabbitMQ is sitting on a live grenade. It has crashed four times this year because of zero tenant isolation: whenever a single consumer service hangs or mismanages message processing, unacknowledged queues rapidly pile up in RAM, tripping Erlang memory alarms that rate-limit every producer and freeze order dispatch. The operations team is furious babysitting an Erlang black box. Since we plan to eliminate RabbitMQ entirely, we won't waste time touching or patching it—our next milestone is replacing it directly with RocketMQ.
+Second, RabbitMQ is sitting on a live grenade. It has crashed four times this year because of zero tenant isolation: whenever a single consumer service hangs or mismanages message processing, unacknowledged queues rapidly pile up in RAM, tripping Erlang memory alarms that rate-limit every producer and freeze order dispatch. The operations team is furious babysitting an Erlang black box. Since we plan to eliminate RabbitMQ entirely, we won't waste time touching or patching it—our next milestone is replacing it directly with Kafka.
 
 Third, our Elasticsearch clusters are experiencing severe performance bottlenecks, suffering from extreme query latency spikes and intermittent freezes during peak traffic hours.”
 
@@ -150,5 +150,5 @@ In multi-tenant RabbitMQ clusters without isolation, a single broken downstream 
 * **The Memory Cascade**: If a single consumer pod crashes, deadlocks, or processes messages too slowly, unacknowledged messages rapidly accumulate in RAM on that RabbitMQ broker node.
 * **The Global Publisher Alarm (`vm_memory_high_watermark`)**: When node memory crosses the 40% threshold, RabbitMQ protects itself by triggering cluster-wide **Publisher Flow Control**. The broker abruptly stops reading TCP packets from **all producers**—not just the queue that is overflowing. 
 * **The Cascading Outage**: Unrelated critical producers (such as order dispatch and payment services) get blocked on socket writes, rapidly exhausting their Tomcat/Netty worker threads and triggering platform-wide 504 Gateway Timeouts.
-* **Strategic Rule on Sunset Systems ("Don't Touch the Dying Broker")**: When a fragile legacy system is slated for total elimination, avoid wasting engineering bandwidth on complex internal patches or localized fine-tuning. Freeze the legacy broker in place, avoid risky intrusive modifications, and direct all organizational momentum toward a clean architectural replacement with a modern, Java-native platform (like Apache RocketMQ).
+* **Strategic Rule on Sunset Systems ("Don't Touch the Dying Broker")**: When a fragile legacy system is slated for total elimination, avoid wasting engineering bandwidth on complex internal patches or localized fine-tuning. Freeze the legacy broker in place, avoid risky intrusive modifications, and direct all organizational momentum toward a clean architectural replacement with a modern, high-throughput distributed platform (like Apache Kafka).
 
