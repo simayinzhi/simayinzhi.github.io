@@ -209,6 +209,82 @@ A low, razor-sharp hiss escaped from between his teeth:
 
 * * *
 
+One week later, the notification landed silently in Phil’s inbox.
+
+`[HR-ANNOUNCE] Organizational Update: Resignation of Sky (Head of Middleware).`
+
+That evening, the neon signs of the craft beer alley behind the technology park flickered through the cold autumn drizzle. Inside a narrow izakaya booth, two heavy glass steins sat on the dark cedar table.
+
+Phil looked across at Sky. Beside Sky’s elbow lay his company badge—the black lanyard neatly coiled around the RFID card, waiting to be surrendered to HR the following morning.
+
+“You built our RPC framework from scratch,” Phil said quietly, his voice level above the low hum of the tavern. “You rewrote the dynamic routing protocol. You designed the deployment ID engine that saved our release platform. To me, you were the only real hacker on the fourteenth floor. Why walk away?”
+
+Sky didn't look up immediately. He traced the rim of his condensation-beaded glass with his thumb, watching a droplet of water slide down the cold glass into the wooden coaster.
+
+A faint, tired smile touched the corners of his mouth.
+
+“No, Phil,” Sky said softly, shaking his head. “I’m not a hacker. I’m just an architect.”
+
+He lifted his glass, took a slow drink, and looked out through the rain-streaked window at the corporate high-rises glowing across the dark sky. 
+
+“In an early-stage startup, real hackers build moats out of code,” Sky murmured. “They spend their nights optimizing memory footprints and tracing packet loss so the platform doesn't bleed out. But in a company this size, the game isn't about code. It’s about positioning. I was playing the wrong game.”
+
+Phil clinked his glass gently against Sky’s. Neither of them spoke for a long time.
+
+* * *
+
+The following Monday morning, the glass doors of CTO Don’s corner office were shut tight.
+
+Don sat behind his wide executive desk, a ceramic mug of green tea resting beside a stack of quarterly compute infrastructure reports. Opposite him sat Frank, his laptop resting closed across his knees.
+
+Don took a slow sip of tea, set the cup down on the wooden coaster, and looked across the desk.
+
+“Sky turned in his badge,” Don said. His cadence was deceptively relaxed, but his gaze remained fixed on Frank. “Our Head of Middleware. The engineer who built the release platform’s routing core. Why did he leave?”
+
+Frank shifted slightly in his chair, his fingers tightening against the edge of his laptop chassis. He looked down at the dark grain of the desk.
+
+“He saw Victor’s compensation package,” Frank said quietly.
+
+Don’s brow creased slightly. “How much?”
+
+Frank paused for two seconds. He swallowed before speaking the number:
+
+“Four million two hundred thousand. Total annual package.”
+
+The room went dead, absolute silence.
+
+Don didn't move. He didn't frown, and he didn't raise his voice. He sat completely motionless in his high-back leather executive chair, staring at the space between Frank’s shoulders. The steam rose from his ceramic cup, vanishing into the dry conditioned air of the room. 
+
+Thirty seconds passed without a single sound. 
+
+Finally, Don picked up his black pen, clicked the top once, and looked back down at the infrastructure report.
+
+“I see,” Don said softly.
+
+He didn't say another syllable. Frank nodded once, stood up with his laptop, and quietly backed out the glass door.
+
+* * *
+
+Two weeks later, Victor’s desk on the twelfth floor was cleared out before nine in the morning.
+
+No corporate announcement went out over email. No farewell dinner was scheduled in the Slack channels. When the morning rush began, Victor’s dual curved displays were disconnected, his mechanical keyboard was gone, and his company laptop was locked inside the IT department’s return cabinet. By noon, his corporate credentials had been purged from the LDAP directory.
+
+The rumor traveled through the engineering floor in quiet, guarded murmurs around the espresso machine:
+
+Frank had negotiated Victor’s executive package directly with executive recruiting when they poached him from Big Tech. But when the numbers were finally audited against the executive ledger, the reality had proven fatal:
+
+Victor’s total compensation package was not merely three times what Sky made.
+
+It was **twice the salary of CTO Don himself**.
+
+In an enterprise organization, an architect might survive quadrupling cloud hardware budgets to mask an unoptimized search cluster. But earning double the compensation of the Chief Technology Officer while doing it was a line no corporate politics could survive.
+
+Victor had won the recruitment table, won the keynote stage, and won the elasticity dividends. 
+
+Until the ledger caught up with him.
+
+* * *
+
 ### SRE Field Notes (Chapter 7 Architecture & Culture Takeaways)
 
 #### 1. The Operational Fallacy of Midnight Deployments
