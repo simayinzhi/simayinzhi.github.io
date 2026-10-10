@@ -2,7 +2,7 @@
 title: "Leo Ma"
 ---
 
-I am a **Senior Java Architect** and **Director of Site Reliability Engineering** with 14+ years of enterprise experience building high-concurrency platforms. Open to relocation to **Canada** or **Singapore**.
+I am a **Senior Java Architect** and **Technical Lead** with 14+ years of enterprise experience building high-concurrency platforms. Open to relocation to **Canada** or **Singapore**.
 
 ---
 
@@ -28,7 +28,7 @@ I am a **Senior Java Architect** and **Director of Site Reliability Engineering*
 
 ### # experience <span class="path">~/experience</span>
 
-- **YMM (Full Truck Alliance, Nasdaq: YMM)** &mdash; Technical Lead & Director of SRE *(2015 – 2024)*
+- **YMM (Full Truck Alliance, Nasdaq: YMM)** &mdash; Technical Lead & Head of SRE *(2015 – 2024)*
 - **Ruilan E-commerce** &mdash; R&D Director *(2014 – 2015)*
 - **Wangte Technology** &mdash; Co-founder *(2012 – 2014)*
 

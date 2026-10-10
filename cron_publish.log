@@ -430,3 +430,11 @@ Transfer starting: 0 files
 sent 48 bytes  received 20 bytes  680000 bytes/sec
 total size is 0  speedup is 0.00
 rsync(70496): warning: child 70497 exited with status 23
+Syncing articles from Obsidian (11_Article) to Quartz content...
+rsync(98514): error: open /Users/philma/Library/Mobile Documents/iCloud~md~obsidian/Documents/my notes/11_Article/: Operation not permitted
+rsync(98514): error: froot_open
+Transfer starting: 0 files
+
+sent 48 bytes  received 20 bytes  680000 bytes/sec
+total size is 0  speedup is 0.00
+rsync(98514): warning: child 98515 exited with status 23
